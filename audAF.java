@@ -28,7 +28,7 @@ class audAF   {
     	try {	
     		Properties properties = new Properties ();
     		properties.put("user", "BEICHHORN");
-    		properties.put("password", "MARYSM");
+    		properties.put("password", "ROSETL");
     		Class.forName("com.ibm.db2.jdbc.app.DB2Driver");
     		dbConn = DriverManager.getConnection("jdbc:db2:*local", properties);	
     	}
